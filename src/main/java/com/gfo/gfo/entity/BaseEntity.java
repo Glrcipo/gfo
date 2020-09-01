@@ -14,6 +14,7 @@ import java.util.Date;
 @Setter
 @ToString
 public class BaseEntity implements Serializable {
+
     private static final long serialVersionUID = -8375499603601079379L;
     private String createdUser;
     private Date createdTime;
